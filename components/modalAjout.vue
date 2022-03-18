@@ -21,6 +21,7 @@
             id="titre-input"
             v-model="titre"
             :state="titreState"
+            placeholder="ex:Les misérables"
             required
           ></b-form-input>
         </b-form-group>
@@ -35,6 +36,7 @@
             id="date-input"
             v-model="date"
             :state="dateState"
+            placeholder="jj/mm/aa"
             required
           ></b-form-input>
         </b-form-group>
@@ -49,6 +51,7 @@
             id="auteur-input"
             v-model="auteur"
             :state="auteurState"
+            placeholder="ex:Victor Hugo"
             required
           ></b-form-input>
         </b-form-group>
@@ -63,6 +66,7 @@
             id="commentaire-input"
             v-model="commentaire"
             :state="commentaireState"
+            placeholder="Donnez votre avis"
             required
           ></b-form-textarea>
         </b-form-group>
